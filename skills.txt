@@ -1,0 +1,37 @@
+
+original description:
+Software engineer with +10 years of professional experience in Full stack development. I am focusing on backend development although I have held some pure frontend roles in the past. I hold a Bachelor's and Master degree in Computer Science. 
+I started my career working with Java technologies but in the last 5 years, I have been using Typescript and node. My current areas of interest are Scala (functional programming), distributed systems, and high-performance applications. I am also very into blockchain development (4 years of professional experience), its possibilities for the payments industry, and its impact on society.
+I have worked in a wide variety of companies where I have adapted to very different teams: from small startups with a few number employees to big corporations. I am a good team player and enjoy sharing knowledge through pair programming: I believe good communication within the team is the most significant performance boost. 
+I am a very goal-oriented person and highly motivated when it comes to learning new technologies. I believe I keep a good balance between quality and fast delivery in my job as I understand well what the most valuable areas are and I handle well technical debt.
+
+New description:
+- I am a software engineer with +10 years of professional experience in Fullstack web development.
+- Lately working with: Typescript/Javascript, AWS, React, Nest.js
+- My specialization is backend although I have worked as frontend/designer in some cases.
+- I worked in big companies as: Consensys, Edgeverve, BAE Systems...
+- My areas of interest are: functional programming, testing, distributed systems, blockchain networks.
+
+
+Skills:
+languages:{
+    Scala
+    Java
+    Typescript/Javascript
+}
+frontend:{
+    React
+}
+backend: {
+    Nest.js
+    Express
+}
+databases: {
+    Mongo
+    Postgres,
+    Graphql
+}
+devops:{
+    AWS
+    Terraform
+}
