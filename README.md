@@ -1,12 +1,16 @@
 # portfolio-ivanob-gatsby
 
-My personal portfolio with some information about me
+My personal portfolio with some information about me: skills, projects, experience...
+***DISCLAIMER***: Based on the templates here listed [1], All the credits for the authors. This is an update in gatsby 5.10.0 and Typescript, but all the styling has been copied
 
 ### Goals
 
 - [ ] Learn the basics of Gatsby + Netlify
 - [ ] Learn Tailwind CSS
-- [ ] Create Portfolio/Personal page
+- [ ] Create Portfolio/Personal page / Redo my descriptions
+- [ ] Interact with S3 to store my CV
+- [ ] Register a domain and link it
+- [ ] Learn about google analytics
 
 ### How to deploy with Netlify
 
@@ -17,4 +21,12 @@ A project created with Gatsby by default does not directly deploy in Netlify, th
 - It is needed to write the build command in the build settings: `npm run build` by default
 
 ### Resources
+
 - Course tailwind (Spanish): https://www.youtube.com/watch?v=h5HQVHTpeHs&t=489s&ab_channel=midulive
+- Gatsby getting-started docu: gatsbyjs.com/docs/tutorial/getting-started/
+- Buenas prácticas, consejos y plantilla para mejorar tu Currículum: https://www.youtube.com/watch?v=xYi8qzLsS24&ab_channel=midulive
+- https://gatsbystarterportfoliominimalt.gatsbyjs.io/#github
+
+### [1] Gatsby templates Examples:
+- https://github.com/ajimenezdev/gatsby-cv
+- https://github.com/santosfrancisco/gatsby-starter-cv

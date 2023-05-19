@@ -2,10 +2,15 @@ import * as React from "react"
 
 const IndexPage = () => {
   return (
+    <>
+    <head></head>
+    <body>
     <div>
-      <h1>My portfolio</h1>
+      <h1 className="text-3xl font-bold underline">My portfolio</h1>
       <p>Personal portfolio</p>
     </div>
+    </body>
+    </>
   )
 }
 

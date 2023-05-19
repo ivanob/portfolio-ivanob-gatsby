@@ -3,6 +3,7 @@
   "private": true,
   "description": "Personal portfolio site with Gatsby + Netlify",
   "version": "0.1.0",
+  "type": "commonjs",
   "author": "Ivan Obeso <ivan.obeso.dev@gmail.com>",
   "dependencies": {
     "gatsby": "^5.9.1",
@@ -15,6 +16,9 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "gatsby-plugin-postcss": "^6.9.0",
+    "postcss": "^8.4.23",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4"
   },
