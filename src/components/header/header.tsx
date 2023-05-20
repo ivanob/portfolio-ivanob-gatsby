@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import { FaHome, FaBars } from 'react-icons/fa'
 import { Link, animateScroll as scroll } from 'react-scroll'
-import siteConfig from '../../../data/siteConfig'
-// const { headerLinks } = siteConfig
+import { HeaderLinkType } from './types'
 
 const HeaderWrapper = styled.header`
   position: fixed;
@@ -54,42 +53,42 @@ const HeaderLink = styled(Link)`
   }
 `
 
-const Header = ({ className }: any) => {
+const Header = ({ className, headerLinks }: any) => {
   const [toggled, setToggled] = useState(false)
-  return (<div>header</div>
-    // <HeaderWrapper className={className}>
-    //   <HeaderNav className="header">
-    //     <FaHome
-    //       size={32}
-    //       className="header__homeIcon"
-    //       onClick={() => scroll.scrollToTop()}
-    //     />
-    //     <HeaderLinkGroup
-    //       className={`header__LinkGroup ${
-    //         toggled ? 'header__LinkGroup-toggled' : ''
-    //       }`}
-    //     >
-    //       {headerLinks.map((headerLink, i) => (
-    //         <HeaderLink
-    //           smooth={true}
-    //           to={headerLink.url}
-    //           offset={-70}
-    //           key={`header-link-${i}`}
-    //           onClick={() => setToggled(false)}
-    //         >
-    //           {headerLink.label}
-    //         </HeaderLink>
-    //       ))}
-    //     </HeaderLinkGroup>
-    //     <div className="header__smallScreen">
-    //       <FaBars
-    //         size={32}
-    //         className="header__smallScreen__menuIcon"
-    //         onClick={() => setToggled(!toggled)}
-    //       />
-    //     </div>
-    //   </HeaderNav>
-    // </HeaderWrapper>
+  return (
+    <HeaderWrapper className={className}>
+      <HeaderNav className="header">
+        <FaHome
+          size={32}
+          className="header__homeIcon"
+          onClick={() => scroll.scrollToTop()}
+        />
+        <HeaderLinkGroup
+          className={`header__LinkGroup ${
+            toggled ? 'header__LinkGroup-toggled' : ''
+          }`}
+        >
+          {headerLinks.map((headerLink: HeaderLinkType, i: number) => (
+            <HeaderLink
+              smooth={true}
+              to={headerLink.url}
+              offset={-70}
+              key={`header-link-${i}`}
+              onClick={() => setToggled(false)}
+            >
+              {headerLink.label}
+            </HeaderLink>
+          ))}
+        </HeaderLinkGroup>
+        <div className="header__smallScreen">
+          <FaBars
+            size={32}
+            className="header__smallScreen__menuIcon"
+            onClick={() => setToggled(!toggled)}
+          />
+        </div>
+      </HeaderNav>
+    </HeaderWrapper>
   )
 }
 
