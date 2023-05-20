@@ -6,11 +6,10 @@ I have worked in a wide variety of companies where I have adapted to very differ
 I am a very goal-oriented person and highly motivated when it comes to learning new technologies. I believe I keep a good balance between quality and fast delivery in my job as I understand well what the most valuable areas are and I handle well technical debt.
 
 New description:
-- I am a software engineer with +10 years of professional experience in Fullstack web development.
-- Lately working with: Typescript/Javascript, AWS, React, Nest.js
-- My specialization is backend although I have worked as frontend/designer in some cases.
-- I worked in big companies as: Consensys, Edgeverve, BAE Systems...
-- My areas of interest are: functional programming, testing, distributed systems, blockchain networks.
+Software engineer with +12 years of professional experience in full-stack roles, with specialization in back-end development.
+Lately I have been working with Typescript/JS, AWS, React, Nest.js, MongoDB/Postgres
+I am working as freelancer in remote companies and my professional experience goes from small startups to more multinationals
+My areas of interest are: functional programming, distributed systems and blockchain projects
 
 
 Skills:

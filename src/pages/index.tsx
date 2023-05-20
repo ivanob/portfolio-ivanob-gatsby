@@ -1,11 +1,27 @@
 import * as React from "react"
-import styled from 'styled-components'
+import styled from "styled-components"
 import { useStaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout/layout"
 import Seo from "../components/SEO/seo"
 import Hero from "../components/hero/hero"
+import Wrapper from "../components/wrapper/wrapper"
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaTwitter,
+  FaFileAlt,
+} from "react-icons/fa"
+import { Container, Row, Col } from "react-awesome-styled-grid"
+import Skills from "../components/skills/skills"
+import About from "../components/about/about"
 
-const IndexPage = () => {
+const Separator = styled.hr`
+  margin-top: 24px;
+  margin-bottom: 16px;
+`
+
+const IndexPage = ({ className }: any) => {
   // validate siteConfig settings
   const { site } = useStaticQuery(
     graphql`
@@ -13,29 +29,115 @@ const IndexPage = () => {
         site {
           siteMetadata {
             googleAnalyticsId
+            resume
+            social {
+              twitter
+              linkedin
+              github
+              email
+            }
+            authorDescription
+            skills {
+              name
+              level
+            }
           }
         }
       }
     `
   )
-  const metadata = site.siteMetadata;
-  if (metadata.googleAnalyticsId === 'UA-000000000-1') {
+  const metadata = site.siteMetadata
+  if (metadata.googleAnalyticsId === "UA-000000000-1") {
     console.error(
-      'WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.'
+      "WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details."
     )
   }
 
   const title = metadata.siteTitle
   const { keywords } = metadata
   return (
-    // <div className={this.props.className}>
+    <div className={className}>
       <Layout>
         <Seo title={title} keywords={keywords} />
 
         <Hero heroImg={metadata.siteCover} title={title} />
 
-    
+        <Wrapper className={className}>
+          <Container fluid={true}>
+            <Row>
+              <Col xs={4}>
+                <img
+                  className="avatar__image"
+                  src="../static/images/avatar-coffee.avif"
+                  alt="user avatar"
+                />
+              </Col>
+              <div className="social">
+                {metadata.social.github && (
+                  <a
+                    className="social-link github"
+                    href={metadata.social.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub className="social-icon" size="32" />
+                  </a>
+                )}
+                {metadata.social.linkedin && (
+                  <a
+                    className="social-link linkedin"
+                    href={metadata.social.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedin className="social-icon" size="32" />
+                  </a>
+                )}
+                {metadata.social.twitter && (
+                  <a
+                    className="social-link twitter"
+                    href={metadata.social.twitter}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaTwitter className="social-icon" size="32" />
+                  </a>
+                )}
+                {metadata.social.email && (
+                  <a
+                    className="social-link email"
+                    href={`mailto:${metadata.social.email}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaEnvelope className="social-icon" size="32" />
+                  </a>
+                )}
+                {metadata.resume && (
+                  <a
+                    className="social-link resume"
+                    href={`${metadata.resume}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaFileAlt className="social-icon" size="28" />
+                  </a>
+                )}
+              </div>
+            </Row>
+            <Row>
+              <Col xs={4} sm={4}>
+                <About title="About" text={metadata.authorDescription} />
+              </Col>
+              <Col xs={4} sm={4}>
+                <Skills title="Skills" skills={metadata.skills} />
+              </Col>
+            </Row>
+            <Separator />
+          </Container>
+        </Wrapper>
       </Layout>
+    </div>
   )
 }
 
