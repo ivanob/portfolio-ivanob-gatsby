@@ -1,7 +1,7 @@
 # portfolio-ivanob-gatsby
 
 My personal portfolio with some information about me: skills, projects, experience...
-***DISCLAIMER***: Based on the templates here listed [1], All the credits for the authors. This is an update in gatsby 5.10.0 and Typescript, but all the styling has been copied
+***DISCLAIMER***: Based on the templates here listed [1], All the credits for the authors. This is an update in gatsby 5.10.0 and Typescript, but all the styling has been shamelessly copied
 
 ### Goals
 
