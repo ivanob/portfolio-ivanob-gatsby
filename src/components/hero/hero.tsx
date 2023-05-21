@@ -30,7 +30,6 @@ const HeroTitle = styled.h1`
 
 const Hero = (props: any) => {
   const { title, className } = props
-
   return (
     <HeroContainer className={className}>
       <TitleContainer>
@@ -42,8 +41,8 @@ const Hero = (props: any) => {
 
 export default styled(Hero)`
   ${p =>
-    `background-image: url(${p.heroImg || withPrefix(siteConfig.siteCover)});`}
-  height: 45vh;
+    `background-image: url(${p.heroImg.image || withPrefix(siteConfig.siteCover)});`}
+  height: 40vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

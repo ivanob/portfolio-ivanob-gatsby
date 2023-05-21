@@ -11,7 +11,7 @@ const config = require("./data/siteConfig");
  */
 module.exports = {
   siteMetadata: {
-    title: `CS of Ivan Obeso Aguera (@ivanob)`,
+    title: `Backend engineer`,
     description: `This is my CV page with a description about me, my skills, my portfolio and my education`,
     author: `Ivan Obeso Aguera`,
     siteUrl: `https://www.ivanobeso.dev`,
@@ -19,6 +19,13 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/static/images`,
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     'gatsby-plugin-postcss',

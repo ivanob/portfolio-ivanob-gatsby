@@ -2,46 +2,59 @@ module.exports = {
   siteTitle: "Hi! I'm Ivan!",
   googleAnalyticsId: "UA-000000000-1",
   siteCover: "/images/cover.jpeg",
+  keyWords: [
+    "Ivan",
+    "Obeso",
+    "backend",
+    "freelance",
+    "software",
+    "engineer",
+    "developer",
+    "expert",
+    "node",
+    "javascript",
+    "typescript",
+  ],
   authorAvatar: "/static/images/avatar-cooffee.avif",
-  authorDescription: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br/><br/>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+  authorDescription: `Software engineer with +12 years of professional experience in <b>full-stack</b> development, with specialization in <b>back-end</b><br/><br/>
+  My most recent working stack is Typescript/JS, AWS, React, Nest.js, MongoDB/Postgres. I am freelancing for remote positions, or based in Portugal. My professional experience goes from small startups to more stablished multinationals<br/><br/>
+  My areas of interest are: functional programming, distributed systems and blockchain`,
   skills: [
     {
-      name: "HTML",
+      name: "Typescript/Javascript",
       level: 90,
     },
     {
-      name: "CSS",
+      name: "Java",
+      level: 60,
+    },
+    {
+      name: "Scala",
+      level: 50,
+    },
+    {
+      name: "AWS (Terraform)",
       level: 85,
     },
     {
-      name: "Javascript",
-      level: 90,
+      name: "Solidity",
+      level: 50,
     },
     {
-      name: "React",
+      name: "React (Gatsby/Nest.js)",
       level: 85,
     },
     {
-      name: "ReactNative",
-      level: 85,
-    },
-    {
-      name: "NodeJs",
-      level: 40,
-    },
-    {
-      name: "Git",
+      name: "MongoDB",
       level: 75,
     },
     {
-      name: "Bitcoin",
-      level: 30,
+      name: "GraphQL",
+      level: 60,
     },
     {
-      name: "Ethereum & smartcontract",
-      level: 30,
+      name: "Postgress",
+      level: 75,
     },
   ],
   headerLinks: [

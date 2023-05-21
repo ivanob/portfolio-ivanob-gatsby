@@ -53,7 +53,8 @@ const HeaderLink = styled(Link)`
   }
 `
 
-const Header = ({ className, headerLinks }: any) => {
+const Header = (props: any) => {
+  const { className, headerLinks } = props
   const [toggled, setToggled] = useState(false)
   return (
     <HeaderWrapper className={className}>
