@@ -45,7 +45,7 @@ const IndexPage = ({ className }: any) => {
             }
           }
         }
-        avatar: file(relativePath: { eq: "avatar-coffee.png" }) {
+        avatar: file(relativePath: { eq: "my-photo.jpg" }) {
           childImageSharp {
             gatsbyImageData(width: 300)
           }

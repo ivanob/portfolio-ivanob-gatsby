@@ -15,7 +15,7 @@ module.exports = {
     "javascript",
     "typescript",
   ],
-  authorAvatar: "/static/images/avatar-cooffee.avif",
+  authorAvatar: "/static/images/my-photo.jpg",
   authorDescription: `Software engineer with +12 years of professional experience in <b>full-stack</b> development, with specialization in <b>back-end</b><br/><br/>
   My most recent working stack of technologies is Typescript/JS, AWS, React, Nest.js, MongoDB/Postgres. I am <b>freelancing</b> for remote positions, or based in Portugal. My professional experience goes from small startups to more stablished multinationals<br/><br/>
   My areas of interest are: functional programming, distributed systems and blockchain`,
