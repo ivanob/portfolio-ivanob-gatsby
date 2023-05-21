@@ -25,24 +25,28 @@ module.exports = {
       level: 90,
     },
     {
+      name: "AWS (Terraform)",
+      level: 80,
+    },
+    {
       name: "Java",
-      level: 60,
+      level: 65,
     },
     {
       name: "Scala",
       level: 50,
     },
     {
-      name: "AWS (Terraform)",
-      level: 85,
-    },
-    {
       name: "Solidity",
       level: 50,
     },
     {
-      name: "React (Gatsby/Nest.js)",
+      name: "React (Gatsby.js)",
       level: 85,
+    },
+    {
+      name: "Nest.js",
+      level: 65,
     },
     {
       name: "MongoDB",
