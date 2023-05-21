@@ -17,7 +17,7 @@ module.exports = {
   ],
   authorAvatar: "/static/images/avatar-cooffee.avif",
   authorDescription: `Software engineer with +12 years of professional experience in <b>full-stack</b> development, with specialization in <b>back-end</b><br/><br/>
-  My most recent working stack is Typescript/JS, AWS, React, Nest.js, MongoDB/Postgres. I am freelancing for remote positions, or based in Portugal. My professional experience goes from small startups to more stablished multinationals<br/><br/>
+  My most recent working stack of technologies is Typescript/JS, AWS, React, Nest.js, MongoDB/Postgres. I am <b>freelancing</b> for remote positions, or based in Portugal. My professional experience goes from small startups to more stablished multinationals<br/><br/>
   My areas of interest are: functional programming, distributed systems and blockchain`,
   skills: [
     {
@@ -66,22 +66,22 @@ module.exports = {
       label: "Skills",
       url: "skills",
     },
-    {
-      label: "Experience",
-      url: "experience",
-    },
-    {
-      label: "Publications",
-      url: "publications",
-    },
-    {
-      label: "Education",
-      url: "education",
-    },
-    {
-      label: "Hobbies",
-      url: "hobbies",
-    },
+    // {
+    //   label: "Experience",
+    //   url: "experience",
+    // },
+    // {
+    //   label: "Publications",
+    //   url: "publications",
+    // },
+    // {
+    //   label: "Education",
+    //   url: "education",
+    // },
+    // {
+    //   label: "Hobbies",
+    //   url: "hobbies",
+    // },
   ],
   resume: "/resume_ivan_obeso.pdf",
   social: {
