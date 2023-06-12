@@ -26,6 +26,8 @@ A project created with Gatsby by default does not directly deploy in Netlify, th
 - Gatsby getting-started docu: gatsbyjs.com/docs/tutorial/getting-started/
 - Buenas prácticas, consejos y plantilla para mejorar tu Currículum: https://www.youtube.com/watch?v=xYi8qzLsS24&ab_channel=midulive
 - https://gatsbystarterportfoliominimalt.gatsbyjs.io/#github
+- [https://www.youtube.com/watch?v=Szo4zgEaXFw&t=407s&ab_channel=CodelyTV-Redescubrelaprogramación](https://www.youtube.com/watch?v=Szo4zgEaXFw&t=407s&ab_channel=CodelyTV-Redescubrelaprogramaci%C3%B3n)
+- https://twitter.com/cfenollosa/status/1544244201398870017?t=zQzJ6HMPBvqc1HoCHuCVHQ&s=19
 
 ### [1] Gatsby templates Examples:
 - https://github.com/ajimenezdev/gatsby-cv

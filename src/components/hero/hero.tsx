@@ -42,7 +42,7 @@ const Hero = (props: any) => {
 export default styled(Hero)`
   ${p =>
     `background-image: url(${p.heroImg.image || withPrefix(siteConfig.siteCover)});`}
-  height: 40vh;
+  height: 35vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

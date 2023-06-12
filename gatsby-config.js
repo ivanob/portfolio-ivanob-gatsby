@@ -11,7 +11,7 @@ const config = require("./data/siteConfig");
  */
 module.exports = {
   siteMetadata: {
-    title: `Backend engineer`,
+    title: `Fullstack Engineer`,
     description: `This is my CV page with a description about me, my skills, my portfolio and my education`,
     author: `Ivan Obeso Aguera`,
     siteUrl: `https://www.ivanobeso.dev`,

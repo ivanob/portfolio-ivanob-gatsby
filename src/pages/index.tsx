@@ -74,7 +74,7 @@ const IndexPage = ({ className }: any) => {
       <Layout>
         <Seo title={title} keywords={keywords} />
 
-        <Hero heroImg={imageBackground} title={metadata.siteTitle} />
+        <Hero heroImg={imageBackground} title={"Full stack engineer - Ivan Obeso Aguera"} />
 
         <Wrapper className={className}>
           <Container fluid={true}>

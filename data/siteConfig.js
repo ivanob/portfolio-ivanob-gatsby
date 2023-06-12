@@ -16,17 +16,36 @@ module.exports = {
     "typescript",
   ],
   authorAvatar: "/static/images/my-photo.jpg",
-  authorDescription: `Software engineer with +12 years of professional experience in <b>full-stack</b> development, with specialization in <b>back-end</b><br/><br/>
-  My most recent working stack of technologies is Typescript/JS, AWS, React, Nest.js, MongoDB/Postgres. I am <b>freelancing</b> for remote positions, or based in Portugal. My professional experience goes from small startups to more stablished multinationals<br/><br/>
-  My areas of interest are: functional programming, distributed systems and blockchain`,
+  authorDescription: `
+  <p>With over 12 years of professional experience in software engineering, I have expertise in <b>full stack</b> development and <b>designing high-quality software systems</b>. While my strength lies in backend development, 
+  I have also gained experience working as a designer/frontend engineer for a couple of years. I specialize in assisting startups in rapidly scaling up and delivering their products with the utmost
+  speed 🚀 and highest attainable quality 👌. I am highly goal-focused, consistently recognizing the relationship between business value and cost while delivering new work.</p>
+ 
+  <p>My main areas of interest are:
+  <ul>
+    <li>Functional Programming</li>
+    <li><a href="https://aws.amazon.com/event-driven-architecture/">Event Driven Architectures</a> and Distributed Systems</li>
+    <li><a href="https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html">Clean Architectures</a> and <a href="https://www.domainlanguage.com/ddd/">Domain Driven Design</a></li>
+    <li>Blockchain Technology</li>
+  </ul>
+  </p>
+
+  <p>My most recent working experience is Typescript/JS, AWS services, Terraform, React, Nest.js, MongoDB/Postgres. Currently, I am involved in the design of event-driven architectures
+  using AWS with special attention to performance and cost. I am <b>freelancing</b> for remote positions (or based in Portugal 🇵🇹)</p>
+  `,
+
   skills: [
     {
       name: "Typescript/Javascript",
       level: 90,
     },
     {
-      name: "AWS (Terraform)",
+      name: "AWS services",
       level: 80,
+    },
+    {
+      name: "Terraform",
+      level: 75,
     },
     {
       name: "Java",
